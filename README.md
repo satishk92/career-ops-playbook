@@ -6,9 +6,20 @@ It contains no one's personal data. You bring your own résumé and history.
 
 ## Start here
 
-1. Open your coding agent (Claude Code, Codex or similar) in the folder where you want the project.
-2. Paste the whole of [SETUP-PROMPT.md](SETUP-PROMPT.md).
-3. Answer its questions. If you have an interview in the next few days, it prepares you for that first and finishes the full setup afterwards.
+Open your coding agent (Claude Code, Codex or similar) in the folder where you want the project, and paste this:
+
+```text
+Set up my job-search agent, then work with me on it from day one onward.
+
+1. Clone the playbook and read its setup prompt completely before doing anything else:
+   git clone https://github.com/satishk92/career-ops-playbook.git
+   Then read career-ops-playbook/SETUP-PROMPT.md from start to finish and follow it phase by phase, running every step yourself. It installs career-ops (the open-source job-search agent), adds the playbook's house rules, and sets out how we'll work every day.
+2. Start with its two Phase 0 questions: which model and effort level I'm running, and when my next interview is. If the interview is within 72 hours, do the interview fast path right after the install and save the full setup for afterwards.
+3. These rules apply from the first message: never submit an application; never send an email or message, or respond to a meeting invite, without my explicit approval of that specific item; never invent facts (ask me one question at a time and record my answers); keep my personal data out of git and out of any public repository; commit locally and push only when I ask; and work with whatever model I'm running.
+4. When setup is done, tell me what's installed, what's in my handoff file, and what to send you next.
+```
+
+If your agent can't clone repositories, paste the whole of [SETUP-PROMPT.md](SETUP-PROMPT.md) instead. Either way, answer its questions as they come. With an interview in the next few days, it prepares you for that first and finishes the full setup afterwards.
 
 ## What's in the playbook
 

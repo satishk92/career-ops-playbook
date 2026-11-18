@@ -32,7 +32,7 @@ These apply from the first message and never lapse:
    ```
    If the installer fails, fall back to `git clone https://github.com/career-ops-hq/career-ops.git`, then `cd career-ops` and `npm install`.
 3. Read `AGENTS.md` and `DATA_CONTRACT.md` completely. They explain which files are mine (the user layer, never overwritten by updates) and which belong to the system.
-4. Get the playbook and copy it into the user layer:
+4. Get the playbook and copy it into the user layer. If `../career-ops-playbook` already exists (for example, because you cloned it to read this prompt), use it; otherwise clone it:
    ```bash
    git clone https://github.com/satishk92/career-ops-playbook.git ../career-ops-playbook
    ```
